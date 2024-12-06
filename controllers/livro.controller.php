@@ -1,4 +1,6 @@
 <?php
+
+//carregar mpodeç
 require 'dados.php';
 
 $id = $_REQUEST['id'];
