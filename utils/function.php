@@ -18,7 +18,6 @@ function dd(...$dump){
 
 function abort($code){
     http_response_code($code);
-    echo "Page not found";
     view($code);
     die();
 }
